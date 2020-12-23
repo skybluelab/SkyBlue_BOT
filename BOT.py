@@ -36,4 +36,4 @@ async def dice(ctx):
 
 
 
-app.run('NzkwNDQ5OTUwMTY1MTcyMjQ0.X-Ax4Q.u9wS5E1ySquiAG2zdKMg-7AMBrA')                        
+app.run('Token')                        
