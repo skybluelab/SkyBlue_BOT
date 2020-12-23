@@ -1,2 +1,3 @@
 # SkyBlue_BOT
-Discord SkyBlue BOT 개발.. 조금씩 만들어 볼 예정 
+Discord SkyBlue BOT Ver 1.0
+기본 베이스, 주사위, 업데이트
