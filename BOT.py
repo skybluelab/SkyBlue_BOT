@@ -79,10 +79,18 @@ async def stop(ctx):
     voice = discord.utils.get(app.voice_clients, guild=ctx.guild)
     voice.stop()
 
+@app.command()
+async def devnote(ctx):
+    embed = discord.Embed(title = '개발노트' , color = 0x008000)
+    embed.add_field(name = "ver 1.0" , value = "Hello, World!" , inline = False)
+    embed.add_field(name = "ver 1.1" , value = "유튜브 기반 음악 기능 추가" , inline = False)
+
+    await ctx.send(embed = embed)
+
 
 @app.command(pass_context = True)
 async def help(ctx):
-    embed = discord.Embed(title = 'Help', description = 'Ver = 1.1' , color = 0xFF5733)
+    embed = discord.Embed(title = 'Commend Help', description = 'Ver = 1.1' , color = 0xFF5733)
     embed.add_field(name = "!dice", value = "1~6범위 내의 난수를 알려줍니다" , inline = True)
     embed.add_field(name = "!repeat [반복할말]", value = "입력된 말을 SkyBlue가 다시 말합니다" , inline = False)
     embed.add_field(name = "!hello" , value = "Hello, World!" , inline = False)
@@ -102,4 +110,4 @@ async def dice(ctx):
 
 
 
-app.run('NzkwNDQ5OTUwMTY1MTcyMjQ0.X-Ax4Q.OIfjnylQ8NYydTyY0Pb_9tuwqE8')  #github 푸시할때 토큰 가리세요      
+app.run('Token')  #github 푸시할때 토큰 가리세요      

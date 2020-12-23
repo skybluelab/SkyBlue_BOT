@@ -1,6 +1,10 @@
 # SkyBlue_BOT
-Discord SkyBlue BOT Ver 1.1
-음악 재생기능 추가
+Discord SkyBlue BOT
+: 심심할때 마다 게임 대체로 만들게 될 SkyBlue BOT
 
-만든 기능: 주사위, 반복, 음악 재생
 
+ver 1.0 
+ Hello, World!
+
+ver 1.1
+ 유튜브 기반 음악 재생 기능 추가
